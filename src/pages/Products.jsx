@@ -20,18 +20,18 @@ const Products = () => {
       },
       headers: {
         "X-RapidAPI-Host": "real-time-product-search.p.rapidapi.com",
-        "X-RapidAPI-Key": "fbce8f334dmsha455e3f17e5cccbp1e6f9djsnb461c372bb26",
+        "X-RapidAPI-Key": "53a76964e3mshf67bfcb5a2b5331p178ff6jsn6470922ad379",
       },
     };
 
     dispatch(fetchData({ url: popularUrl, options: popularOptions }));
   }, []);
 
-  useEffect(() => {
-    if (data) {
-      console.log(data.data);
-    }
-  }, [data]);
+  // useEffect(() => {
+  //   if (data) {
+  //     console.log(data.data);
+  //   }
+  // }, [data]);
 
   return (
     <main>

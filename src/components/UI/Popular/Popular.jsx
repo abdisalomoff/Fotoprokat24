@@ -25,7 +25,7 @@ const Popular = () => {
       },
       headers: {
         "X-RapidAPI-Host": "real-time-product-search.p.rapidapi.com",
-        "X-RapidAPI-Key": "fbce8f334dmsha455e3f17e5cccbp1e6f9djsnb461c372bb26",
+        "X-RapidAPI-Key": "53a76964e3mshf67bfcb5a2b5331p178ff6jsn6470922ad379",
       },
     };
 
@@ -37,6 +37,11 @@ const Popular = () => {
       console.log(data.data);
     }
   }, [data]);
+
+//   if (!data?.data || !Array.isArray(data?.data)) {
+//     console.error(error);
+//     return null;
+//   }
 
   return (
     <div className="products">
@@ -54,6 +59,7 @@ const Popular = () => {
           modules={[FreeMode, Pagination]}
           className="products__wrapper"
         >
+            
           {data?.data?.map((item) => (
             <SwiperSlide key={item?.product_id}>
               <ProductCard item={item} />

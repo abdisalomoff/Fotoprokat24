@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import  { useState, useEffect } from "react";
 import Loader from "../Loader/Loader";
 import axios from 'axios';
 import "./News.scss";

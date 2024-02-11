@@ -16,7 +16,6 @@ import { useState } from "react";
 import EmptyCart from "../components/UI/EmptyCart/EmptyCart";
 import { TiDeleteOutline } from "react-icons/ti";
 import "./Cart.scss";
-// import CheckoutModal from "../CheckOutModal/CheckOutModal";
 
 const Cart = () => {
   const dispatch = useDispatch();
