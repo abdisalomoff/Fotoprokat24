@@ -1,0 +1,37 @@
+.products{
+    margin: 45px auto 100px;
+}
+
+.products__heading {
+    color: #75758a;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.products__type {
+    margin-top: 15px;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+}
+
+.products__mark {
+    color:  #8EE901;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+}
+
+.products__list{
+    padding: 45px 0px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}

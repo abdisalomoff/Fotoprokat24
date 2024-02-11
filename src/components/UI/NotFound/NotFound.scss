@@ -1,0 +1,36 @@
+.not-found__wrapper {
+    text-align: center;
+    border: 1px solid #efefef;
+    border-radius: 8px;
+    padding: 12px;
+    width: 300px;
+    margin: 180px auto 0px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .not-found__text {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  
+  .not-found__textline {
+    margin-top: 0.5rem;
+    color: #666;
+  }
+  
+  .not-found__btn {
+    background-color: #e44d26;
+    color: #fff;
+    padding: 8px 16px;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .not-found__btn:hover {
+    background-color: #c5371f;
+  }
+  

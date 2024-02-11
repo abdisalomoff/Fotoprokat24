@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+img {
+    vertical-align: middle;
+}
+
+body{
+    font-family: "Ubuntu";
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    padding: 0px 20px;
+    margin: 0 auto;
+  }
+  

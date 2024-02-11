@@ -1,0 +1,39 @@
+// EmptyCart.scss
+
+.empty__wrapper {
+    text-align: center;
+    margin-top: 16px;
+    border: 1px solid #efefef; /* border rangini o'zgartiring */
+    border-radius: 8px; /* radiusni o'zgartiring */
+    padding: 12px;
+    width: 300px; /* o'lchamni o'zgartiring */
+    margin: 0 auto; /* maydonni markazga joylashtiring */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* qutilangan timsolni o'zgartiring */
+  }
+  
+  .empty__text {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  
+  .empty__textline {
+    margin-top: 0.5rem;
+    color: #666; /* matn rangini o'zgartiring */
+  }
+  
+  .empty__btn {
+    background-color: #8ee901;
+    color: #fff;
+    padding: 8px 16px;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* tugma rangi o'zgargandan keyin animatsiyani qo'llab-quvvatlash */
+  }
+  
+  .empty__btn:hover {
+    background-color: rgb(79, 156, 44); /* tugma rangini hover qilganda o'zgartiring */
+  }
+  

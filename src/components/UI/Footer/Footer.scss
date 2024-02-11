@@ -1,0 +1,225 @@
+.footer {
+    display: block;
+  
+    .footer__main_wrapper {
+      grid-template-columns: repeat(2, auto);
+    }
+  
+    .footer-form input {
+      width: 200px;
+    }
+  
+    .footer-form button {
+      width: 100px;
+      font-size: 11px;
+    }
+  
+    #footer__descr {
+      grid-column: 1/3;
+    }
+  
+    .footer__row {
+      background: #515668 center center/cover no-repeat;
+    }
+  
+    .footer__row_wrapper {
+      width: 1140px;
+      display: flex;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      margin: 0 auto;
+      min-height: 72px;
+    }
+  
+    .footer__row_text {
+      margin-top: 16px;
+      display: grid;
+      grid-template-columns: repeat(2, auto);
+      justify-content: space-between;
+      column-gap: 10px;
+  
+      &:hover {
+        color: #60b021;
+      }
+    }
+  
+    .footer__row_descr {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 20px;
+      color: #fff;
+      cursor: pointer;
+  
+      span {
+        color: #8ee901;
+      }
+    }
+  
+    .footer__row_call {
+      margin-right: 100px;
+      margin-top: 26px;
+      display: grid;
+      grid-template-columns: repeat(2, auto);
+      column-gap: 10px;
+    }
+  
+    .footer__row_order {
+      cursor: pointer;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 18px;
+      color: #8ee901;
+    }
+  
+    .footer-form {
+      margin-top: 16px;
+    }
+  
+    .footer-form_input {
+      display: flex;
+    }
+  
+    .footer-form_input input {
+        outline: none;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      color: #75758a;
+      padding: 0 0 0 20px;
+      width: 315px;
+      height: 40px;
+      background: #fff;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, .3);
+      border: none;
+    }
+  
+    .footer-form_input button {
+        cursor: pointer;
+      width: 160px;
+      height: 40px;
+      left: 0;
+      top: 0;
+      background: #4f9c2c;
+      border: none;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 16px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #fff;
+    }
+  
+    .footer__main {
+      padding: 31px 0 40px 0;
+    }
+  
+    .footer__main_wrapper {
+      display: flex;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+    }
+  
+    .footer__main_title {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 26px;
+      color: #000;
+    }
+  
+    .footer__main_link {
+      display: block;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 26px;
+      color: #75758a;
+  
+      &:hover {
+        color: #75758a;
+      }
+    }
+  
+    .footer__paymants {
+      display: block;
+      margin-top: 15px;
+    }
+  
+    .footer__paymants_wrapper {
+      display: flex;
+      width: 250px;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+    }
+  
+    .footer__section_descr {
+      margin-top: 9px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      color: #000;
+    }
+  
+    .footer__section_years {
+      margin-top: 15px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 20px;
+      color: #75758a;
+  
+      span {
+        color: #000;
+      }
+    }
+  
+    .footer__section_social {
+      margin-top: 15px;
+      width: 200px;
+      display: flex;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+    }
+  
+    .footer__section_social_f,
+    .footer__section_social_i,
+    .footer__section_social_l,
+    .footer__section_social_t {
+      height: 32px;
+      width: 32px;
+      border-radius: 100%;
+      background: #3b5998;
+      padding-left: 4px;
+  
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  
+    .footer__section_social_f i,
+    .footer__section_social_i i,
+    .footer__section_social_l i,
+    .footer__section_social_t i {
+      display: block;
+      color: #fff;
+    //   text-align: center;
+    }
+  
+    .footer__section_social_t {
+      background: #55acee;
+    }
+  
+    .footer__section_social_l {
+      background: #4d76a1;
+    }
+  
+    .footer__section_social_i {
+      background: #6a453b;
+    }
+  }
+  

@@ -1,0 +1,105 @@
+.header {
+    border-bottom: 1px solid #efefef;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 99;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+.header__menu {
+    display: flex;
+    gap: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+
+
+}
+
+.header__item {
+    a {
+        color: #333;
+    }
+}
+
+.header_login {
+    font-weight: 700;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+}
+
+.header__buttons {
+    display: flex;
+    gap: 20px;
+}
+
+
+.search-bar {
+    display: flex;
+    align-self: flex-start;
+    height: 34px;
+    position: relative;
+    width: 100%;
+    max-width: 350px;
+    min-width: 150px;
+    padding: 0px 50px;
+}
+
+.search-query-input {
+    width: 100%;
+    height: 34px;
+    background: rgb(235, 235, 235, 0.3);
+    outline: none;
+    border: none;
+    border-radius: 26px;
+    padding: 0 0px 0 35px;
+    font-size: 12px;
+}
+
+.search-query-submit {
+    width: 56px;
+    height: 34px;
+    margin-left: -258px;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.search-query-submit:hover {
+    cursor: pointer;
+}
+
+.search-icon {
+    opacity: 0.5;
+}
+
+.header__cart {
+    position: relative;
+}
+
+.header__cartresults {
+    width: 10px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: calc(50% + 608px);
+    right: 0;
+    top: 10px;
+    bottom: 0;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    padding-left: 6px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    border-radius: 100px;
+    background: linear-gradient(270.00deg, rgb(142, 233, 1) 0%, rgb(79, 156, 44) 99.057%);
+}
